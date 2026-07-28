@@ -1,0 +1,3061 @@
+[
+  {
+    "name": "jinaAi",
+    "displayName": "Jina AI",
+    "description": "Interact with Jina AI API",
+    "category": "AI",
+    "icon": "🤖"
+  },
+  {
+    "name": "mistralAi",
+    "displayName": "Mistral AI",
+    "description": "Consume Mistral AI API",
+    "category": "AI",
+    "icon": "🤖"
+  },
+  {
+    "name": "openAi",
+    "displayName": "OpenAI",
+    "description": "Consume Open AI",
+    "category": "AI",
+    "icon": "🤖"
+  },
+  {
+    "name": "perplexity",
+    "displayName": "Perplexity",
+    "description": "AI-powered answer engine that provides accurate, trusted, and real-time answers to any question. Supports chat completions, agent responses, web search, and embeddings.",
+    "category": "AI",
+    "icon": "🤖"
+  },
+  {
+    "name": "googleAds",
+    "displayName": "Google Ads",
+    "description": "Use the Google Ads API",
+    "category": "Analytics",
+    "icon": "📈"
+  },
+  {
+    "name": "googleAnalytics",
+    "displayName": "Google Analytics",
+    "description": "Use the Google Analytics API",
+    "category": "Analytics",
+    "icon": "📈"
+  },
+  {
+    "name": "acuitySchedulingTrigger",
+    "displayName": "Acuity Scheduling Trigger",
+    "description": "Handle Acuity Scheduling events via webhooks",
+    "category": "Calendar",
+    "icon": "📅"
+  },
+  {
+    "name": "calTrigger",
+    "displayName": "Cal.com Trigger",
+    "description": "Handle Cal.com events via webhooks",
+    "category": "Calendar",
+    "icon": "📅"
+  },
+  {
+    "name": "calendlyTrigger",
+    "displayName": "Calendly Trigger",
+    "description": "Starts the workflow when Calendly events occur",
+    "category": "Calendar",
+    "icon": "📅"
+  },
+  {
+    "name": "googleCalendar",
+    "displayName": "Google Calendar",
+    "description": "Consume Google Calendar API",
+    "category": "Calendar",
+    "icon": "📅"
+  },
+  {
+    "name": "googleCalendarTrigger",
+    "displayName": "Google Calendar Trigger",
+    "description": "Starts the workflow when Google Calendar events occur",
+    "category": "Calendar",
+    "icon": "📅"
+  },
+  {
+    "name": "discord",
+    "displayName": "Discord",
+    "description": "Sends data to Discord",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "drift",
+    "displayName": "Drift",
+    "description": "Consume Drift API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "googleChat",
+    "displayName": "Google Chat",
+    "description": "Consume Google Chat API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "gotify",
+    "displayName": "Gotify",
+    "description": "Consume Gotify API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "intercom",
+    "displayName": "Intercom",
+    "description": "Consume Intercom API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "line",
+    "displayName": "Line",
+    "description": "Consume Line API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "matrix",
+    "displayName": "Matrix",
+    "description": "Consume Matrix API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "mattermost",
+    "displayName": "Mattermost",
+    "description": "Sends data to Mattermost",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "microsoftTeams",
+    "displayName": "Microsoft Teams",
+    "description": "Consume Microsoft Teams API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "microsoftTeamsTrigger",
+    "displayName": "Microsoft Teams Trigger",
+    "description": "Triggers workflows in n8n based on events from Microsoft Teams, such as new messages or team updates, using specified configurations.",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "rocketchat",
+    "displayName": "RocketChat",
+    "description": "Consume RocketChat API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "slack",
+    "displayName": "Slack",
+    "description": "Consume Slack API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "slackTrigger",
+    "displayName": "Slack Trigger",
+    "description": "Handle Slack events via webhooks",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "telegram",
+    "displayName": "Telegram",
+    "description": "Sends data to Telegram",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "telegramTrigger",
+    "displayName": "Telegram Trigger",
+    "description": "Starts the workflow on a Telegram update",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "twake",
+    "displayName": "Twake",
+    "description": "Consume Twake API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "twist",
+    "displayName": "Twist",
+    "description": "Consume Twist API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "ciscoWebex",
+    "displayName": "Webex by Cisco",
+    "description": "Consume the Cisco Webex API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "ciscoWebexTrigger",
+    "displayName": "Webex by Cisco Trigger",
+    "description": "Starts the workflow when Cisco Webex events occur.",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "zulip",
+    "displayName": "Zulip",
+    "description": "Consume Zulip API",
+    "category": "Communication",
+    "icon": "💬"
+  },
+  {
+    "name": "aggregate",
+    "displayName": "Aggregate",
+    "description": "Combine a field from many items into a list in a single item",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "messageAnAgent",
+    "displayName": "AI Agent V1",
+    "description": "Send a message to a n8n agent",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "aiTransform",
+    "displayName": "AI Transform",
+    "description": "Modify data based on instructions written in plain english",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "dynamicCredentialCheck",
+    "displayName": "Check Credential Status",
+    "description": "Checks whether the triggering user has the required end-user credential configured. Routes to",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "code",
+    "displayName": "Code",
+    "description": "Run custom JavaScript or Python code",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "compareDatasets",
+    "displayName": "Compare Datasets",
+    "description": "Compare two inputs for changes",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "compression",
+    "displayName": "Compression",
+    "description": "Compress and decompress files",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "moveBinaryData",
+    "displayName": "Convert to/from binary data",
+    "description": "Move data between binary and JSON properties",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "crypto",
+    "displayName": "Crypto",
+    "description": "Provide cryptographic utilities",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "dataTable",
+    "displayName": "Data table",
+    "description": "Permanently save data across workflow executions in a table",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "dateTime",
+    "displayName": "Date & Time",
+    "description": "Allows you to manipulate date and time values",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "debugHelper",
+    "displayName": "DebugHelper",
+    "description": "Causes problems intentionally and generates useful data for debugging",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "filter",
+    "displayName": "Filter",
+    "description": "Keep only items matching a condition",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "function",
+    "displayName": "Function",
+    "description": "Run custom function code which gets executed once and allows you to add, remove, change and replace items",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "functionItem",
+    "displayName": "Function Item",
+    "description": "Run custom function code which gets executed once per item",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "htmlExtract",
+    "displayName": "HTML Extract",
+    "description": "Extracts data from HTML",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "if",
+    "displayName": "If",
+    "description": "Route items to different branches (true/false)",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "itemLists",
+    "displayName": "Item Lists",
+    "description": "Helper for working with lists of items and transforming arrays",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "jwt",
+    "displayName": "JWT",
+    "description": "Be sure to add a valid JWT token to the",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "limit",
+    "displayName": "Limit",
+    "description": "Restrict the number of items",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "markdown",
+    "displayName": "Markdown",
+    "description": "Convert data between Markdown and HTML",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "merge",
+    "displayName": "Merge",
+    "description": "Merges data of multiple streams once data from both is available",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "formTrigger",
+    "displayName": "n8n Form Trigger",
+    "description": "Generate webforms in n8n and pass their responses to the workflow",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "noOp",
+    "displayName": "No Operation, do nothing",
+    "description": "No Operation",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "removeDuplicates",
+    "displayName": "Remove Duplicates",
+    "description": "Delete items with matching field values",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "renameKeys",
+    "displayName": "Rename Keys",
+    "description": "Update item field names",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "set",
+    "displayName": "Set",
+    "description": "Add or edit fields on an input item and optionally remove other fields",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "simulate",
+    "displayName": "Simulate",
+    "description": "Simulate a node",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "sort",
+    "displayName": "Sort",
+    "description": "Change items order",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "splitInBatches",
+    "displayName": "Split In Batches",
+    "description": "Split data into batches and iterate over each batch",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "splitOut",
+    "displayName": "Split Out",
+    "description": "Turn a list inside item(s) into separate items",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "spreadsheetFile",
+    "displayName": "Spreadsheet File",
+    "description": "Reads and writes data from a spreadsheet file like CSV, XLS, ODS, etc",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "stickyNote",
+    "displayName": "Sticky Note",
+    "description": "Make your workflow easier to understand",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "stopAndError",
+    "displayName": "Stop and Error",
+    "description": "Throw an error in the workflow",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "summarize",
+    "displayName": "Summarize",
+    "description": "Sum, count, max, etc. across items",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "switch",
+    "displayName": "Switch",
+    "description": "Route items depending on defined expression or rules",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "totp",
+    "displayName": "TOTP",
+    "description": "Generate a time-based one-time password",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "timeSaved",
+    "displayName": "Track Time Saved",
+    "description": "Dynamically track time saved based on the workflow’s execution path and the number of items processed",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "xml",
+    "displayName": "XML",
+    "description": "Convert data from and to XML",
+    "category": "Core",
+    "icon": "⚙️"
+  },
+  {
+    "name": "activeCampaign",
+    "displayName": "ActiveCampaign",
+    "description": "Create and edit data in ActiveCampaign",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "activeCampaignTrigger",
+    "displayName": "ActiveCampaign Trigger",
+    "description": "Handle ActiveCampaign events via webhooks",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "affinity",
+    "displayName": "Affinity",
+    "description": "Consume Affinity API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "affinityTrigger",
+    "displayName": "Affinity Trigger",
+    "description": "Handle Affinity events via webhooks",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "agileCrm",
+    "displayName": "Agile CRM",
+    "description": "Consume Agile CRM API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "copper",
+    "displayName": "Copper",
+    "description": "Consume the Copper API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "copperTrigger",
+    "displayName": "Copper Trigger",
+    "description": "Handle Copper events via webhooks",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "demio",
+    "displayName": "Demio",
+    "description": "Consume the Demio API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "dropcontact",
+    "displayName": "Dropcontact",
+    "description": "Find B2B emails and enrich contacts",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "freshworksCrm",
+    "displayName": "Freshworks CRM",
+    "description": "Consume the Freshworks CRM API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "highLevel",
+    "displayName": "HighLevel",
+    "description": "Consume HighLevel API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "hubspot",
+    "displayName": "HubSpot",
+    "description": "Consume HubSpot API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "hubspotTrigger",
+    "displayName": "HubSpot Trigger",
+    "description": "Starts the workflow when HubSpot events occur",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "humanticAi",
+    "displayName": "Humantic AI",
+    "description": "Consume Humantic AI API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "hunter",
+    "displayName": "Hunter",
+    "description": "Consume Hunter API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "keap",
+    "displayName": "Keap",
+    "description": "Consume Keap API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "keapTrigger",
+    "displayName": "Keap Trigger",
+    "description": "Starts the workflow when Infusionsoft events occur",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "monicaCrm",
+    "displayName": "Monica CRM",
+    "description": "Consume the Monica CRM API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "pipedrive",
+    "displayName": "Pipedrive",
+    "description": "Create and edit data in Pipedrive",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "salesforce",
+    "displayName": "Salesforce",
+    "description": "Consume Salesforce API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "salesforceTrigger",
+    "displayName": "Salesforce Trigger",
+    "description": "Fetches data from Salesforce and starts the workflow on specified polling intervals.",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "salesmate",
+    "displayName": "Salesmate",
+    "description": "Consume Salesmate API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "uplead",
+    "displayName": "Uplead",
+    "description": "Consume Uplead API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "zohoCrm",
+    "displayName": "Zoho CRM",
+    "description": "Consume Zoho CRM API",
+    "category": "CRM",
+    "icon": "💼"
+  },
+  {
+    "name": "airtable",
+    "displayName": "Airtable",
+    "description": "Read, update, write and delete data from Airtable",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "airtableTrigger",
+    "displayName": "Airtable Trigger",
+    "description": "Starts the workflow when Airtable events occur",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "awsDynamoDb",
+    "displayName": "AWS DynamoDB",
+    "description": "Consume the AWS DynamoDB API",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "azureCosmosDb",
+    "displayName": "Azure Cosmos DB",
+    "description": "Interact with Azure Cosmos DB API",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "baserow",
+    "displayName": "Baserow",
+    "description": "Consume the Baserow API",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "crateDb",
+    "displayName": "CrateDB",
+    "description": "Add and update data in CrateDB",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "databricks",
+    "displayName": "Databricks",
+    "description": "Interact with Databricks API",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "elasticsearch",
+    "displayName": "Elasticsearch",
+    "description": "Consume the Elasticsearch API",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "googleBigQuery",
+    "displayName": "Google BigQuery",
+    "description": "Consume Google BigQuery API",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "googleSheets",
+    "displayName": "Google Sheets",
+    "description": "Read, update and write data to Google Sheets",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "grafana",
+    "displayName": "Grafana",
+    "description": "Consume the Grafana API",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "grist",
+    "displayName": "Grist",
+    "description": "Consume the Grist API",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "metabase",
+    "displayName": "Metabase",
+    "description": "Use the Metabase API",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "microsoftExcel",
+    "displayName": "Microsoft Excel (OneDrive)",
+    "description": "Consume the Microsoft Excel API for workbooks stored in OneDrive",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "microsoftExcelSharePoint",
+    "displayName": "Microsoft Excel (SharePoint)",
+    "description": "Read and write Excel workbooks stored in SharePoint document libraries",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "microsoftSql",
+    "displayName": "Microsoft SQL",
+    "description": "Get, add and update data in Microsoft SQL",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "mongoDb",
+    "displayName": "MongoDB",
+    "description": "Find, insert and update documents in MongoDB",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "mySql",
+    "displayName": "MySQL",
+    "description": "Get, add and update data in MySQL",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "nocoDb",
+    "displayName": "NocoDB",
+    "description": "Read, update, write and delete data from NocoDB",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "postgres",
+    "displayName": "Postgres",
+    "description": "Get, add and update data in Postgres",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "postgresTrigger",
+    "displayName": "Postgres Trigger",
+    "description": "Listens to Postgres messages",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "questDb",
+    "displayName": "QuestDB",
+    "description": "Get, add and update data in QuestDB",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "redis",
+    "displayName": "Redis",
+    "description": "Get, send and update data in Redis",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "redisTrigger",
+    "displayName": "Redis Trigger",
+    "description": "Subscribe to redis channel",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "seaTable",
+    "displayName": "SeaTable",
+    "description": "Read, update, write and delete data from SeaTable",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "seaTableTrigger",
+    "displayName": "SeaTable Trigger",
+    "description": "Starts the workflow when SeaTable events occur",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "snowflake",
+    "displayName": "Snowflake",
+    "description": "Get, add and update data in Snowflake",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "stackby",
+    "displayName": "Stackby",
+    "description": "Read, write, and delete data in Stackby",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "supabase",
+    "displayName": "Supabase",
+    "description": "Add, get, delete and update data in a table",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "timescaleDb",
+    "displayName": "TimescaleDB",
+    "description": "Add and update data in TimescaleDB",
+    "category": "Data",
+    "icon": "📊"
+  },
+  {
+    "name": "bitbucketTrigger",
+    "displayName": "Bitbucket Trigger",
+    "description": "Handle Bitbucket events via webhooks",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "circleCi",
+    "displayName": "CircleCI",
+    "description": "Consume CircleCI API",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "git",
+    "displayName": "Git",
+    "description": "Control git.",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "github",
+    "displayName": "GitHub",
+    "description": "Consume GitHub API",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "githubTrigger",
+    "displayName": "Github Trigger",
+    "description": "Starts the workflow when Github events occur",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "gitlab",
+    "displayName": "GitLab",
+    "description": "Retrieve data from GitLab API",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "jenkins",
+    "displayName": "Jenkins",
+    "description": "Consume Jenkins API",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "npm",
+    "displayName": "Npm",
+    "description": "Consume NPM registry API",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "postHog",
+    "displayName": "PostHog",
+    "description": "Consume PostHog API",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "segment",
+    "displayName": "Segment",
+    "description": "Consume Segment API",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "sentryIo",
+    "displayName": "Sentry.io",
+    "description": "Consume Sentry.io API",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "travisCi",
+    "displayName": "TravisCI",
+    "description": "Consume TravisCI API",
+    "category": "Development",
+    "icon": "💻"
+  },
+  {
+    "name": "awsCertificateManager",
+    "displayName": "AWS Certificate Manager",
+    "description": "Sends data to AWS Certificate Manager",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsCognito",
+    "displayName": "AWS Cognito",
+    "description": "Sends data to AWS Cognito",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsComprehend",
+    "displayName": "AWS Comprehend",
+    "description": "Sends data to Amazon Comprehend",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsElb",
+    "displayName": "AWS ELB",
+    "description": "Sends data to AWS ELB API",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsIam",
+    "displayName": "AWS IAM",
+    "description": "Interacts with Amazon IAM",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsLambda",
+    "displayName": "AWS Lambda",
+    "description": "Invoke functions on AWS Lambda",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsRekognition",
+    "displayName": "AWS Rekognition",
+    "description": "Sends data to AWS Rekognition",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsSes",
+    "displayName": "AWS SES",
+    "description": "Sends data to AWS SES",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsSns",
+    "displayName": "AWS SNS",
+    "description": "Sends data to AWS SNS",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsSnsTrigger",
+    "displayName": "AWS SNS Trigger",
+    "description": "Handle AWS SNS events via webhooks",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsSqs",
+    "displayName": "AWS SQS",
+    "description": "Sends messages to AWS SQS",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsTextract",
+    "displayName": "AWS Textract",
+    "description": "Sends data to Amazon Textract",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "awsTranscribe",
+    "displayName": "AWS Transcribe",
+    "description": "Sends data to AWS Transcribe",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "cloudflare",
+    "displayName": "Cloudflare",
+    "description": "Consume Cloudflare API",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "n8n",
+    "displayName": "n8n",
+    "description": "Handle events and perform actions on your n8n instance",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "n8nTrigger",
+    "displayName": "n8n Trigger",
+    "description": "Handle events and perform actions on your n8n instance",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "netlify",
+    "displayName": "Netlify",
+    "description": "Consume Netlify API",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "netlifyTrigger",
+    "displayName": "Netlify Trigger",
+    "description": "Handle netlify events via webhooks",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "pagerDuty",
+    "displayName": "PagerDuty",
+    "description": "Consume PagerDuty API",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "rundeck",
+    "displayName": "Rundeck",
+    "description": "Manage Rundeck API",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "serviceNow",
+    "displayName": "ServiceNow",
+    "description": "Consume ServiceNow API",
+    "category": "DevOps/Cloud",
+    "icon": "☁️"
+  },
+  {
+    "name": "contentful",
+    "displayName": "Contentful",
+    "description": "Consume Contentful API",
+    "category": "Documentation/CMS",
+    "icon": "📝"
+  },
+  {
+    "name": "erpNext",
+    "displayName": "ERPNext",
+    "description": "Consume ERPNext API",
+    "category": "Documentation/CMS",
+    "icon": "📝"
+  },
+  {
+    "name": "ghost",
+    "displayName": "Ghost",
+    "description": "Consume Ghost API",
+    "category": "Documentation/CMS",
+    "icon": "📝"
+  },
+  {
+    "name": "googleDocs",
+    "displayName": "Google Docs",
+    "description": "Consume Google Docs API.",
+    "category": "Documentation/CMS",
+    "icon": "📝"
+  },
+  {
+    "name": "googleSlides",
+    "displayName": "Google Slides",
+    "description": "Consume the Google Slides API",
+    "category": "Documentation/CMS",
+    "icon": "📝"
+  },
+  {
+    "name": "storyblok",
+    "displayName": "Storyblok",
+    "description": "Consume Storyblok API",
+    "category": "Documentation/CMS",
+    "icon": "📝"
+  },
+  {
+    "name": "strapi",
+    "displayName": "Strapi",
+    "description": "Consume Strapi API",
+    "category": "Documentation/CMS",
+    "icon": "📝"
+  },
+  {
+    "name": "wordpress",
+    "displayName": "Wordpress",
+    "description": "Consume Wordpress API",
+    "category": "Documentation/CMS",
+    "icon": "📝"
+  },
+  {
+    "name": "chargebee",
+    "displayName": "Chargebee",
+    "description": "Retrieve data from Chargebee API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "chargebeeTrigger",
+    "displayName": "Chargebee Trigger",
+    "description": "Starts the workflow when Chargebee events occur",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "gumroadTrigger",
+    "displayName": "Gumroad Trigger",
+    "description": "Handle Gumroad events via webhooks",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "invoiceNinja",
+    "displayName": "Invoice Ninja",
+    "description": "Consume Invoice Ninja API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "invoiceNinjaTrigger",
+    "displayName": "Invoice Ninja Trigger",
+    "description": "Starts the workflow when Invoice Ninja events occur",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "magento2",
+    "displayName": "Magento 2",
+    "description": "Consume Magento API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "odoo",
+    "displayName": "Odoo",
+    "description": "Consume Odoo API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "paddle",
+    "displayName": "Paddle",
+    "description": "Consume Paddle API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "payPal",
+    "displayName": "PayPal",
+    "description": "Consume PayPal API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "payPalTrigger",
+    "displayName": "PayPal Trigger",
+    "description": "Handle PayPal events via webhooks",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "quickbooks",
+    "displayName": "QuickBooks Online",
+    "description": "Consume the QuickBooks Online API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "shopify",
+    "displayName": "Shopify",
+    "description": "Consume Shopify API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "shopifyTrigger",
+    "displayName": "Shopify Trigger",
+    "description": "Handle Shopify events via webhooks",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "stripe",
+    "displayName": "Stripe",
+    "description": "Consume the Stripe API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "stripeTrigger",
+    "displayName": "Stripe Trigger",
+    "description": "Handle Stripe events via webhooks",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "wooCommerce",
+    "displayName": "WooCommerce",
+    "description": "Consume WooCommerce API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "wooCommerceTrigger",
+    "displayName": "WooCommerce Trigger",
+    "description": "Handle WooCommerce events via webhooks",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "xero",
+    "displayName": "Xero",
+    "description": "Consume Xero API",
+    "category": "E-Commerce",
+    "icon": "🛒"
+  },
+  {
+    "name": "sendInBlue",
+    "displayName": "Brevo",
+    "description": "Consume Brevo API",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "emailReadImap",
+    "displayName": "Email Trigger (IMAP)",
+    "description": "Triggers the workflow when a new email is received",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "gmail",
+    "displayName": "Gmail",
+    "description": "Consume the Gmail API",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "gmailTrigger",
+    "displayName": "Gmail Trigger",
+    "description": "Fetches emails from Gmail and starts the workflow on specified polling intervals.",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "mailgun",
+    "displayName": "Mailgun",
+    "description": "Sends an email via Mailgun",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "mailjet",
+    "displayName": "Mailjet",
+    "description": "Consume Mailjet API",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "mandrill",
+    "displayName": "Mandrill",
+    "description": "Consume Mandrill API",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "microsoftOutlook",
+    "displayName": "Microsoft Outlook",
+    "description": "Consume Microsoft Outlook API",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "microsoftOutlookTrigger",
+    "displayName": "Microsoft Outlook Trigger",
+    "description": "Fetches emails from Microsoft Outlook and starts the workflow on specified polling intervals.",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "postmarkTrigger",
+    "displayName": "Postmark Trigger",
+    "description": "Starts the workflow when Postmark events occur",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "emailSend",
+    "displayName": "Send Email",
+    "description": "Sends an email using SMTP protocol",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "sendGrid",
+    "displayName": "SendGrid",
+    "description": "Consume SendGrid API",
+    "category": "Email",
+    "icon": "✉️"
+  },
+  {
+    "name": "awsS3",
+    "displayName": "AwsS3",
+    "description": "Sends data to AWS S3",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "azureStorage",
+    "displayName": "Azure Storage",
+    "description": "Interact with Azure Storage API",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "box",
+    "displayName": "Box",
+    "description": "Consume Box API",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "boxTrigger",
+    "displayName": "Box Trigger",
+    "description": "Starts the workflow when Box events occur",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "convertToFile",
+    "displayName": "Convert to File",
+    "description": "Convert JSON data to binary data",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "dropbox",
+    "displayName": "Dropbox",
+    "description": "Access data on Dropbox",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "extractFromFile",
+    "displayName": "Extract from File",
+    "description": "Convert binary data to JSON",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "googleCloudStorage",
+    "displayName": "Google Cloud Storage",
+    "description": "Use the Google Cloud Storage API",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "googleDrive",
+    "displayName": "Google Drive",
+    "description": "Access data on Google Drive",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "googleDriveTrigger",
+    "displayName": "Google Drive Trigger",
+    "description": "Starts the workflow when Google Drive events occur",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "microsoftOneDrive",
+    "displayName": "Microsoft OneDrive",
+    "description": "Consume Microsoft OneDrive API",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "microsoftOneDriveTrigger",
+    "displayName": "Microsoft OneDrive Trigger",
+    "description": "Trigger for Microsoft OneDrive API.",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "microsoftSharePoint",
+    "displayName": "Microsoft SharePoint",
+    "description": "Interact with Microsoft SharePoint API",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "nextCloud",
+    "displayName": "Nextcloud",
+    "description": "Access data on Nextcloud",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "readBinaryFile",
+    "displayName": "Read Binary File",
+    "description": "Reads a binary file from disk",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "readBinaryFiles",
+    "displayName": "Read Binary Files",
+    "description": "Reads binary files from disk",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "readPDF",
+    "displayName": "Read PDF",
+    "description": "Reads a PDF and extracts its content",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "readWriteFile",
+    "displayName": "Read/Write Files from Disk",
+    "description": "Read or write files from the computer that runs n8n",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "s3",
+    "displayName": "S3",
+    "description": "Sends data to any S3-compatible service",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "ssh",
+    "displayName": "SSH",
+    "description": "Execute commands via SSH",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "writeBinaryFile",
+    "displayName": "Write Binary File",
+    "description": "Writes a binary file to disk",
+    "category": "Files",
+    "icon": "📂"
+  },
+  {
+    "name": "gong",
+    "displayName": "Gong",
+    "description": "Interact with Gong API",
+    "category": "Finance",
+    "icon": "💰"
+  },
+  {
+    "name": "wise",
+    "displayName": "Wise",
+    "description": "Consume the Wise API",
+    "category": "Finance",
+    "icon": "💰"
+  },
+  {
+    "name": "wiseTrigger",
+    "displayName": "Wise Trigger",
+    "description": "Handle Wise events via webhooks",
+    "category": "Finance",
+    "icon": "💰"
+  },
+  {
+    "name": "workableTrigger",
+    "displayName": "Workable Trigger",
+    "description": "Starts the workflow when Workable events occur",
+    "category": "HR",
+    "icon": "🧑‍💼"
+  },
+  {
+    "name": "graphql",
+    "displayName": "GraphQL",
+    "description": "Makes a GraphQL request and returns the received data",
+    "category": "HTTP/Web",
+    "icon": "🌐"
+  },
+  {
+    "name": "httpRequest",
+    "displayName": "HTTP Request",
+    "description": "Makes an HTTP request and returns the response data",
+    "category": "HTTP/Web",
+    "icon": "🌐"
+  },
+  {
+    "name": "rssFeedReadTrigger",
+    "displayName": "RSS Feed Trigger",
+    "description": "Starts a workflow when an RSS feed is updated",
+    "category": "HTTP/Web",
+    "icon": "🌐"
+  },
+  {
+    "name": "rssFeedRead",
+    "displayName": "RSS Read",
+    "description": "Reads data from an RSS Feed",
+    "category": "HTTP/Web",
+    "icon": "🌐"
+  },
+  {
+    "name": "homeAssistant",
+    "displayName": "Home Assistant",
+    "description": "Consume Home Assistant API",
+    "category": "IoT",
+    "icon": "🖥️"
+  },
+  {
+    "name": "philipsHue",
+    "displayName": "Philips Hue",
+    "description": "Consume Philips Hue API",
+    "category": "IoT",
+    "icon": "🖥️"
+  },
+  {
+    "name": "bitwarden",
+    "displayName": "Bitwarden",
+    "description": "Consume the Bitwarden API",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "cortex",
+    "displayName": "Cortex",
+    "description": "Apply the Cortex analyzer/responder on the given entity",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "haloPSA",
+    "displayName": "HaloPSA",
+    "description": "Consume HaloPSA API",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "ldap",
+    "displayName": "Ldap",
+    "description": "Interact with LDAP servers",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "misp",
+    "displayName": "MISP",
+    "description": "Consume the MISP API",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "okta",
+    "displayName": "Okta",
+    "description": "Use the Okta API",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "securityScorecard",
+    "displayName": "SecurityScorecard",
+    "description": "Consume SecurityScorecard API",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "syncroMsp",
+    "displayName": "SyncroMSP",
+    "description": "Manage contacts, tickets and more from Syncro MSP",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "theHive",
+    "displayName": "TheHive",
+    "description": "Consume TheHive API",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "theHiveProjectTrigger",
+    "displayName": "TheHive 5 Trigger",
+    "description": "Starts the workflow when TheHive events occur",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "theHiveTrigger",
+    "displayName": "TheHive Trigger",
+    "description": "Starts the workflow when TheHive events occur",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "urlScanIo",
+    "displayName": "urlscan.io",
+    "description": "Provides various utilities for monitoring websites like health checks or screenshots",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "venafiTlsProtectCloud",
+    "displayName": "Venafi TLS Protect Cloud",
+    "description": "Consume Venafi TLS Protect Cloud API",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "venafiTlsProtectDatacenter",
+    "displayName": "Venafi TLS Protect Datacenter",
+    "description": "Consume Venafi TLS Protect Datacenter",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "zammad",
+    "displayName": "Zammad",
+    "description": "Consume the Zammad API",
+    "category": "IT/Security",
+    "icon": "🔒"
+  },
+  {
+    "name": "actionNetwork",
+    "displayName": "Action Network",
+    "description": "Consume the Action Network API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "autopilot",
+    "displayName": "Autopilot",
+    "description": "Consume Autopilot API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "autopilotTrigger",
+    "displayName": "Autopilot Trigger",
+    "description": "Handle Autopilot events via webhooks",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "convertKit",
+    "displayName": "ConvertKit",
+    "description": "Consume ConvertKit API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "convertKitTrigger",
+    "displayName": "ConvertKit Trigger",
+    "description": "Handle ConvertKit events via webhooks",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "customerIo",
+    "displayName": "Customer.io",
+    "description": "Consume Customer.io API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "customerIoTrigger",
+    "displayName": "Customer.io Trigger",
+    "description": "Starts the workflow on a Customer.io update (Beta)",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "egoi",
+    "displayName": "E-goi",
+    "description": "Consume E-goi API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "emelia",
+    "displayName": "Emelia",
+    "description": "Consume the Emelia API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "emeliaTrigger",
+    "displayName": "Emelia Trigger",
+    "description": "Handle Emelia campaign activity events via webhooks",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "iterable",
+    "displayName": "Iterable",
+    "description": "Consume Iterable API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "lemlist",
+    "displayName": "Lemlist",
+    "description": "Consume the Lemlist API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "lemlistTrigger",
+    "displayName": "Lemlist Trigger",
+    "description": "Handle Lemlist events via webhooks",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "mailchimp",
+    "displayName": "Mailchimp",
+    "description": "Consume Mailchimp API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "mailchimpTrigger",
+    "displayName": "Mailchimp Trigger",
+    "description": "Handle Mailchimp events via webhooks",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "mailerLite",
+    "displayName": "MailerLite",
+    "description": "Consume MailerLite API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "mailerLiteTrigger",
+    "displayName": "MailerLite Trigger",
+    "description": "Starts the workflow when MailerLite events occur",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "mautic",
+    "displayName": "Mautic",
+    "description": "Consume Mautic API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "mauticTrigger",
+    "displayName": "Mautic Trigger",
+    "description": "Handle Mautic events via webhooks",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "sendy",
+    "displayName": "Sendy",
+    "description": "Consume Sendy API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "tapfiliate",
+    "displayName": "Tapfiliate",
+    "description": "Consume Tapfiliate API",
+    "category": "Marketing",
+    "icon": "📣"
+  },
+  {
+    "name": "bannerbear",
+    "displayName": "Bannerbear",
+    "description": "Consume Bannerbear API",
+    "category": "Media",
+    "icon": "🎥"
+  },
+  {
+    "name": "mindee",
+    "displayName": "Mindee",
+    "description": "Consume Mindee API",
+    "category": "Media",
+    "icon": "🎥"
+  },
+  {
+    "name": "quickChart",
+    "displayName": "QuickChart",
+    "description": "Create a chart via QuickChart",
+    "category": "Media",
+    "icon": "🎥"
+  },
+  {
+    "name": "spotify",
+    "displayName": "Spotify",
+    "description": "Access public song data via the Spotify API",
+    "category": "Media",
+    "icon": "🎥"
+  },
+  {
+    "name": "youTube",
+    "displayName": "YouTube",
+    "description": "Consume YouTube API",
+    "category": "Media",
+    "icon": "🎥"
+  },
+  {
+    "name": "amqp",
+    "displayName": "AMQP Sender",
+    "description": "Sends a raw-message via AMQP 1.0, executed once per item",
+    "category": "Messaging",
+    "icon": "📨"
+  },
+  {
+    "name": "amqpTrigger",
+    "displayName": "AMQP Trigger",
+    "description": "Listens to AMQP 1.0 messages",
+    "category": "Messaging",
+    "icon": "📨"
+  },
+  {
+    "name": "kafka",
+    "displayName": "Kafka",
+    "description": "Sends messages to a Kafka topic",
+    "category": "Messaging",
+    "icon": "📨"
+  },
+  {
+    "name": "kafkaTrigger",
+    "displayName": "Kafka Trigger",
+    "description": "Consume messages from a Kafka topic",
+    "category": "Messaging",
+    "icon": "📨"
+  },
+  {
+    "name": "mqtt",
+    "displayName": "MQTT",
+    "description": "Push messages to MQTT",
+    "category": "Messaging",
+    "icon": "📨"
+  },
+  {
+    "name": "mqttTrigger",
+    "displayName": "MQTT Trigger",
+    "description": "Listens to MQTT events",
+    "category": "Messaging",
+    "icon": "📨"
+  },
+  {
+    "name": "rabbitmq",
+    "displayName": "RabbitMQ",
+    "description": "Sends messages to a RabbitMQ topic",
+    "category": "Messaging",
+    "icon": "📨"
+  },
+  {
+    "name": "rabbitmqTrigger",
+    "displayName": "RabbitMQ Trigger",
+    "description": "Listens to RabbitMQ messages",
+    "category": "Messaging",
+    "icon": "📨"
+  },
+  {
+    "name": "adalo",
+    "displayName": "Adalo",
+    "description": "Consume Adalo API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "airtop",
+    "displayName": "Airtop",
+    "description": "Scrape and control any site with Airtop",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "apiTemplateIo",
+    "displayName": "APITemplate.io",
+    "description": "Consume the APITemplate.io API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "Blur",
+    "displayName": "Background Color",
+    "description": "Adds a blur to the image and so makes it less sharp",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "beeminder",
+    "displayName": "Beeminder",
+    "description": "Consume Beeminder API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "bitly",
+    "displayName": "Bitly",
+    "description": "Consume Bitly API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "Brandfetch",
+    "displayName": "Brandfetch",
+    "description": "Consume Brandfetch API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "sendInBlueApi",
+    "displayName": "Brevo Trigger",
+    "description": "Starts the workflow when Brevo events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "clearbit",
+    "displayName": "Clearbit",
+    "description": "Consume Clearbit API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "cockpit",
+    "displayName": "Cockpit",
+    "description": "Consume Cockpit API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "coinGecko",
+    "displayName": "CoinGecko",
+    "description": "Consume CoinGecko API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "currents",
+    "displayName": "Currents",
+    "description": "Interact with the Currents API for test orchestration and analytics",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "currentsTrigger",
+    "displayName": "Currents Trigger",
+    "description": "Starts the workflow when Currents events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "Jay Gatsby",
+    "displayName": "Customer Datastore (n8n training)",
+    "description": "Dummy node used for n8n training",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "deepL",
+    "displayName": "DeepL",
+    "description": "Translate data using DeepL",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "dhl",
+    "displayName": "DHL",
+    "description": "Consume DHL API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "documentId",
+    "displayName": "Document",
+    "description": "Starts the workflow when Google Sheets events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "e2eTest",
+    "displayName": "E2E Test",
+    "description": "Dummy node used for e2e testing",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "e2eTestPollingTrigger",
+    "displayName": "E2E Test Polling Trigger",
+    "description": "Dummy polling trigger for e2e testing",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "elasticSecurity",
+    "displayName": "Elastic Security",
+    "description": "Consume the Elastic Security API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "executeCommand",
+    "displayName": "Execute Command",
+    "description": "Executes a command on the host",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "executionData",
+    "displayName": "Execution Data",
+    "description": "Add execution data for search",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "extractionValues",
+    "displayName": "Extraction Values",
+    "description": "The key under which the extracted value should be saved",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "facebookGraphApi",
+    "displayName": "Facebook Graph API",
+    "description": "Interacts with Facebook using the Graph API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "filemaker",
+    "displayName": "FileMaker",
+    "description": "Retrieve data from the FileMaker data API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "flow",
+    "displayName": "Flow",
+    "description": "Consume Flow API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "flowTrigger",
+    "displayName": "Flow Trigger",
+    "description": "Handle Flow events via webhooks",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "setInputsNotice",
+    "displayName": "For adding columns from your dataset to the evaluation results. Anything you add here will be displayed in the ‘evaluations’ tab, not on the Google Sheet or Data table.",
+    "description": "The expected output defined in your evaluation dataset, used as ground truth",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "formIoTrigger",
+    "displayName": "Form.io Trigger",
+    "description": "Handle form.io events via webhooks",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "formstackTrigger",
+    "displayName": "Formstack Trigger",
+    "description": "Starts the workflow on a Formstack form submission.",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "getResponse",
+    "displayName": "GetResponse",
+    "description": "Consume GetResponse API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "getResponseTrigger",
+    "displayName": "GetResponse Trigger",
+    "description": "Starts the workflow when GetResponse events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "Comment",
+    "displayName": "GitLab Trigger",
+    "description": "Triggered when a new comment is made on commits, merge requests, issues, and code snippets",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "googleFirebaseCloudFirestore",
+    "displayName": "Google Cloud Firestore",
+    "description": "Interact with Google Firebase - Cloud Firestore API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "googleFirebaseRealtimeDatabase",
+    "displayName": "Google Cloud Realtime Database",
+    "description": "Interact with Google Firebase - Realtime Database API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "hackerNews",
+    "displayName": "Hacker News",
+    "description": "Consume Hacker News API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "iCal",
+    "displayName": "iCalendar",
+    "description": "Create iCalendar file",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "jotFormTrigger",
+    "displayName": "Jotform Trigger",
+    "description": "Handle Jotform events via webhooks",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "koBoToolbox",
+    "displayName": "KoBoToolbox",
+    "description": "Work with KoBoToolbox forms and submissions",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "koBoToolboxTrigger",
+    "displayName": "KoBoToolbox Trigger",
+    "description": "Process KoBoToolbox submissions",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "limitWaitTime",
+    "displayName": "Limit Wait Time",
+    "description": "Whether to limit the time this node should wait for a user response before execution resumes",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "lingvaNex",
+    "displayName": "LingvaNex",
+    "description": "Consume LingvaNex API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "linkedIn",
+    "displayName": "LinkedIn",
+    "description": "Consume LinkedIn API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "loneScale",
+    "displayName": "LoneScale",
+    "description": "Enrich and source contacts, search companies, and manage lists",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "loneScaleTrigger",
+    "displayName": "LoneScale Trigger",
+    "description": "Trigger LoneScale Workflow",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "mailcheck",
+    "displayName": "Mailcheck",
+    "description": "Consume Mailcheck API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "mailjetTrigger",
+    "displayName": "Mailjet Trigger",
+    "description": "Handle Mailjet events via webhooks",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "marketstack",
+    "displayName": "Marketstack",
+    "description": "Consume Marketstack API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "messageBird",
+    "displayName": "MessageBird",
+    "description": "Sends SMS via MessageBird",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "microsoftDynamicsCrm",
+    "displayName": "Microsoft Dynamics CRM",
+    "description": "Consume Microsoft Dynamics CRM API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "microsoftEntra",
+    "displayName": "Microsoft Entra ID",
+    "description": "Interact with Microsoft Entra ID API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "microsoftGraphSecurity",
+    "displayName": "Microsoft Graph Security",
+    "description": "Consume the Microsoft Graph Security API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "microsoftToDo",
+    "displayName": "Microsoft To Do",
+    "description": "Consume Microsoft To Do API.",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "nasa",
+    "displayName": "NASA",
+    "description": "Retrieve data from the NASA API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "citrixAdc",
+    "displayName": "Netscaler ADC",
+    "description": "Consume Netscaler ADC API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "oneSimpleApi",
+    "displayName": "One Simple API",
+    "description": "A toolbox of no-code utilities",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "onfleet",
+    "displayName": "Onfleet",
+    "description": "Consume Onfleet API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "onfleetTrigger",
+    "displayName": "Onfleet Trigger",
+    "description": "Starts the workflow when Onfleet events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "openThesaurus",
+    "displayName": "OpenThesaurus",
+    "description": "Get synonmns for German words using the OpenThesaurus API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "openWeatherMap",
+    "displayName": "OpenWeatherMap",
+    "description": "Gets current and future weather information",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "orbit",
+    "displayName": "Orbit",
+    "description": "Consume Orbit API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "oura",
+    "displayName": "Oura",
+    "description": "Consume Oura API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "peekalink",
+    "displayName": "Peekalink",
+    "description": "Consume the Peekalink API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "phantombuster",
+    "displayName": "Phantombuster",
+    "description": "Consume Phantombuster API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "Activity",
+    "displayName": "Pipedrive Trigger",
+    "description": "Starts the workflow when Pipedrive events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "postBin",
+    "displayName": "PostBin",
+    "description": "Consume PostBin API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "profitWell",
+    "displayName": "ProfitWell",
+    "description": "Consume ProfitWell API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "pushbullet",
+    "displayName": "Pushbullet",
+    "description": "Consume Pushbullet API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "pushcut",
+    "displayName": "Pushcut",
+    "description": "Consume Pushcut API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "pushcutTrigger",
+    "displayName": "Pushcut Trigger",
+    "description": "Starts the workflow when Pushcut events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "pushover",
+    "displayName": "Pushover",
+    "description": "Consume Pushover API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "quickbase",
+    "displayName": "Quick Base",
+    "description": "Integrate with the Quick Base RESTful API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "raindrop",
+    "displayName": "Raindrop",
+    "description": "Consume the Raindrop API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "respondWith",
+    "displayName": "Respond With",
+    "description": "Respond with all input JSON items",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "signl4",
+    "displayName": "SIGNL4",
+    "description": "Consume SIGNL4 API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "splunk",
+    "displayName": "Splunk",
+    "description": "Consume the Splunk Enterprise API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "strava",
+    "displayName": "Strava",
+    "description": "Consume Strava API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "stravaTrigger",
+    "displayName": "Strava Trigger",
+    "description": "Starts the workflow when Strava events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "surveyMonkeyTrigger",
+    "displayName": "SurveyMonkey Trigger",
+    "description": "Starts the workflow when Survey Monkey events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "timeout",
+    "displayName": "Timeout",
+    "description": "Connection timeout in milliseconds",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "typeformTrigger",
+    "displayName": "Typeform Trigger",
+    "description": "Starts the workflow on a Typeform form submission",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "unleashedSoftware",
+    "displayName": "Unleashed Software",
+    "description": "Consume Unleashed Software API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "uproc",
+    "displayName": "uProc",
+    "description": "Consume uProc API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "uptimeRobot",
+    "displayName": "UptimeRobot",
+    "description": "Consume UptimeRobot API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "venafiTlsProtectCloudTrigger",
+    "displayName": "Venafi TLS Protect Cloud Trigger",
+    "description": "Starts the workflow when Venafi events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "venafiTlsProtectDatacenterTrigger",
+    "displayName": "Venafi TLS Protect Datacenter Trigger",
+    "description": "Starts the workflow when Venafi events occur",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "vero",
+    "displayName": "Vero",
+    "description": "Consume Vero API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "amount",
+    "displayName": "Wait Amount",
+    "description": "The time to wait",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "wufooTrigger",
+    "displayName": "Wufoo Trigger",
+    "description": "Handle Wufoo events via webhooks",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "yourls",
+    "displayName": "Yourls",
+    "description": "Consume Yourls API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "zoom",
+    "displayName": "Zoom",
+    "description": "Consume Zoom API",
+    "category": "Other",
+    "icon": "📦"
+  },
+  {
+    "name": "bubble",
+    "displayName": "Bubble",
+    "description": "Consume the Bubble Data API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "eventbriteTrigger",
+    "displayName": "Eventbrite Trigger",
+    "description": "Handle Eventbrite events via webhooks",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "figmaTrigger",
+    "displayName": "Figma Trigger (Beta)",
+    "description": "Starts the workflow when Figma events occur",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "freshdesk",
+    "displayName": "Freshdesk",
+    "description": "Consume Freshdesk API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "freshservice",
+    "displayName": "Freshservice",
+    "description": "Consume the Freshservice API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "googleBooks",
+    "displayName": "Google Books",
+    "description": "Read data from Google Books",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "googleBusinessProfile",
+    "displayName": "Google Business Profile",
+    "description": "Consume Google Business Profile API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "googleBusinessProfileTrigger",
+    "displayName": "Google Business Profile Trigger",
+    "description": "Fetches reviews from Google Business Profile and starts the workflow on specified polling intervals.",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "googleCloudNaturalLanguage",
+    "displayName": "Google Cloud Natural Language",
+    "description": "Consume Google Cloud Natural Language API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "googleContacts",
+    "displayName": "Google Contacts",
+    "description": "Consume Google Contacts API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "googlePerspective",
+    "displayName": "Google Perspective",
+    "description": "Consume Google Perspective API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "googleTasks",
+    "displayName": "Google Tasks",
+    "description": "Consume Google Tasks API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "googleTranslate",
+    "displayName": "Google Translate",
+    "description": "Translate data using Google Translate",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "gSuiteAdmin",
+    "displayName": "Google Workspace Admin",
+    "description": "Consume Google Workspace Admin API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "goToWebinar",
+    "displayName": "GoToWebinar",
+    "description": "Consume the GoToWebinar API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "helpScout",
+    "displayName": "Help Scout",
+    "description": "Consume Help Scout API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "helpScoutTrigger",
+    "displayName": "Help Scout Trigger",
+    "description": "Starts the workflow when Help Scout events occur",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "webflow",
+    "displayName": "Webflow",
+    "description": "Consume the Webflow API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "webflowTrigger",
+    "displayName": "Webflow Trigger",
+    "description": "Handle Webflow events via webhooks",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "zendesk",
+    "displayName": "Zendesk",
+    "description": "Consume Zendesk API",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "zendeskTrigger",
+    "displayName": "Zendesk Trigger",
+    "description": "Handle Zendesk events via webhooks",
+    "category": "Productivity",
+    "icon": "📁"
+  },
+  {
+    "name": "asana",
+    "displayName": "Asana",
+    "description": "Consume Asana REST API",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "asanaTrigger",
+    "displayName": "Asana Trigger",
+    "description": "Starts the workflow when Asana events occur.",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "clickUp",
+    "displayName": "ClickUp",
+    "description": "Consume ClickUp API (Beta)",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "clickUpTrigger",
+    "displayName": "ClickUp Trigger",
+    "description": "Handle ClickUp events via webhooks (Beta)",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "clockify",
+    "displayName": "Clockify",
+    "description": "Consume Clockify REST API",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "clockifyTrigger",
+    "displayName": "Clockify Trigger",
+    "description": "Listens to Clockify events",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "coda",
+    "displayName": "Coda",
+    "description": "Consume Coda API",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "harvest",
+    "displayName": "Harvest",
+    "description": "Access data on Harvest",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "jira",
+    "displayName": "Jira Software",
+    "description": "Consume Jira Software API",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "jiraTrigger",
+    "displayName": "Jira Trigger",
+    "description": "Starts the workflow when Jira events occur",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "linear",
+    "displayName": "Linear",
+    "description": "Consume Linear API",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "linearTrigger",
+    "displayName": "Linear Trigger",
+    "description": "Starts the workflow when Linear events occur",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "mondayCom",
+    "displayName": "Monday.com",
+    "description": "Consume Monday.com API",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "notion",
+    "displayName": "Notion",
+    "description": "Consume Notion API",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "notionTrigger",
+    "displayName": "Notion Trigger",
+    "description": "Starts the workflow when Notion events occur",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "taiga",
+    "displayName": "Taiga",
+    "description": "Consume Taiga API",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "taigaTrigger",
+    "displayName": "Taiga Trigger",
+    "description": "Handle Taiga events via webhook",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "todoist",
+    "displayName": "Todoist",
+    "description": "Consume Todoist API",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "togglTrigger",
+    "displayName": "Toggl Trigger",
+    "description": "Starts the workflow when Toggl events occur",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "trello",
+    "displayName": "Trello",
+    "description": "Create, change and delete boards and cards",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "trelloTrigger",
+    "displayName": "Trello Trigger",
+    "description": "Starts the workflow when Trello events occur",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "wekan",
+    "displayName": "Wekan",
+    "description": "Consume Wekan API",
+    "category": "Project Management",
+    "icon": "📋"
+  },
+  {
+    "name": "mocean",
+    "displayName": "Mocean",
+    "description": "Send SMS and voice messages via Mocean",
+    "category": "SMS/Phone",
+    "icon": "📱"
+  },
+  {
+    "name": "msg91",
+    "displayName": "MSG91",
+    "description": "Sends transactional SMS via MSG91",
+    "category": "SMS/Phone",
+    "icon": "📱"
+  },
+  {
+    "name": "plivo",
+    "displayName": "Plivo",
+    "description": "Send SMS/MMS messages or make phone calls",
+    "category": "SMS/Phone",
+    "icon": "📱"
+  },
+  {
+    "name": "sms77",
+    "displayName": "seven",
+    "description": "Send SMS and make text-to-speech calls",
+    "category": "SMS/Phone",
+    "icon": "📱"
+  },
+  {
+    "name": "twilio",
+    "displayName": "Twilio",
+    "description": "Send SMS and WhatsApp messages or make phone calls",
+    "category": "SMS/Phone",
+    "icon": "📱"
+  },
+  {
+    "name": "twilioTrigger",
+    "displayName": "Twilio Trigger",
+    "description": "Starts the workflow on a Twilio update",
+    "category": "SMS/Phone",
+    "icon": "📱"
+  },
+  {
+    "name": "vonage",
+    "displayName": "Vonage",
+    "description": "Consume Vonage API",
+    "category": "SMS/Phone",
+    "icon": "📱"
+  },
+  {
+    "name": "discourse",
+    "displayName": "Discourse",
+    "description": "Consume Discourse API",
+    "category": "Social Media",
+    "icon": "👥"
+  },
+  {
+    "name": "disqus",
+    "displayName": "Disqus",
+    "description": "Access data on Disqus",
+    "category": "Social Media",
+    "icon": "👥"
+  },
+  {
+    "name": "facebookLeadAdsTrigger",
+    "displayName": "Facebook Lead Ads Trigger",
+    "description": "Handle Facebook Lead Ads events via webhooks",
+    "category": "Social Media",
+    "icon": "👥"
+  },
+  {
+    "name": "facebookTrigger",
+    "displayName": "Facebook Trigger",
+    "description": "Starts the workflow when Facebook events occur",
+    "category": "Social Media",
+    "icon": "👥"
+  },
+  {
+    "name": "medium",
+    "displayName": "Medium",
+    "description": "Consume Medium API",
+    "category": "Social Media",
+    "icon": "👥"
+  },
+  {
+    "name": "reddit",
+    "displayName": "Reddit",
+    "description": "Consume the Reddit API",
+    "category": "Social Media",
+    "icon": "👥"
+  },
+  {
+    "name": "whatsApp",
+    "displayName": "WhatsApp Business Cloud",
+    "description": "Access WhatsApp API",
+    "category": "Social Media",
+    "icon": "👥"
+  },
+  {
+    "name": "whatsAppTrigger",
+    "displayName": "WhatsApp Trigger",
+    "description": "Handle WhatsApp events via webhooks",
+    "category": "Social Media",
+    "icon": "👥"
+  },
+  {
+    "name": "twitter",
+    "displayName": "X (Formerly Twitter)",
+    "description": "Consume the X API",
+    "category": "Social Media",
+    "icon": "👥"
+  },
+  {
+    "name": "cron",
+    "displayName": "Cron",
+    "description": "Triggers the workflow at a specific time",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "errorTrigger",
+    "displayName": "Error Trigger",
+    "description": "Triggers the workflow when another workflow has an error",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "executeWorkflow",
+    "displayName": "Execute Sub-workflow",
+    "description": "Execute another workflow",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "executeWorkflowTrigger",
+    "displayName": "Execute Workflow Trigger",
+    "description": "Helpers for calling other n8n workflows. Used for designing modular, microservice-like workflows.",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "interval",
+    "displayName": "Interval",
+    "description": "Triggers the workflow in a given interval",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "localFileTrigger",
+    "displayName": "Local File Trigger",
+    "description": "Triggers a workflow on file system changes",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "manualTrigger",
+    "displayName": "Manual Trigger",
+    "description": "Runs the flow on clicking a button in n8n",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "scheduleTrigger",
+    "displayName": "Schedule Trigger",
+    "description": "Triggers the workflow on a given schedule",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "simulateTrigger",
+    "displayName": "Simulate Trigger",
+    "description": "Simulate a trigger node",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "sseTrigger",
+    "displayName": "SSE Trigger",
+    "description": "Triggers the workflow when Server-Sent Events occur",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "webhook",
+    "displayName": "Webhook",
+    "description": "Starts the workflow when a webhook is called",
+    "category": "Triggers",
+    "icon": "⚡"
+  },
+  {
+    "name": "workflowTrigger",
+    "displayName": "Workflow Trigger",
+    "description": "Triggers based on various lifecycle events, like when a workflow is activated",
+    "category": "Triggers",
+    "icon": "⚡"
+  }
+]

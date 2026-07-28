@@ -1,0 +1,43 @@
+{
+  "modelApi": {
+    "baseUrl": "http://crate.ftp.sh/v1",
+    "serviceKey": "YOUR_MODEL_API_KEY_HERE",
+    "defaultModel": "creator-mini"
+  },
+  "github": {
+    "clientId": "YOUR_GITHUB_CLIENT_ID",
+    "clientSecret": "YOUR_GITHUB_CLIENT_SECRET",
+    "redirectUri": "http://localhost:5173/auth/callback",
+    "scopes": ["repo", "read:user", "workflow"]
+  },
+  "daytona": {
+    "apiUrl": "https://app.daytona.io/api",
+    "apiKey": "YOUR_DAYTONA_API_KEY",
+    "pricingPerHour": 0.50,
+    "autoStopMinutes": 60
+  },
+  "freedns": {
+    "token": "YOUR_FREEDNS_TOKEN",
+    "domains": [
+      { "domain": "z0.bot.nu", "type": "afraid", "description": "FreeDNS subdomain" },
+      { "domain": "z0.fly.io", "type": "fly", "description": "Fly.io subdomain" }
+    ],
+    "defaultDomain": "z0.bot.nu"
+  },
+  "e2b": {
+    "apiKey": "YOUR_E2B_API_KEY"
+  },
+  "agentmail": {
+    "apiKey": "YOUR_AGENTMAIL_API_KEY"
+  },
+  "agentphone": {
+    "apiKey": "YOUR_AGENTPHONE_API_KEY"
+  },
+  "limits": {
+    "dailyBudgetUsd": 5,
+    "maxTokensPerRequest": 32768,
+    "maxConcurrentAgents": 4,
+    "maxBackgroundTasks": 10,
+    "sandboxMaxHours": 24
+  }
+}
