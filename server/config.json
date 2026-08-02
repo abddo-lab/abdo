@@ -1,0 +1,55 @@
+{
+  "app": {
+    "name": "Kiren",
+    "version": "0.0.1",
+    "port": 3001,
+    "frontend_url": "http://localhost:5173",
+    "base_domain": "kiren.knr.cl",
+    "mobile_domain": "mobile.kiren.knr.cl",
+    "sandbox_domain": "preview.kiren.knr.cl"
+  },
+  "github": {
+    "client_id": "Ov23li16VwFc2MqU2doZ",
+    "client_secret": "4c97e0abbed758c35f9f93d5c344e29b53a3eb12",
+    "webhook_secret": ""
+  },
+  "database": {
+    "url": "postgresql://kiren:kiren@localhost:5432/kiren"
+  },
+  "sandbox": {
+    "image": "node:20-bookworm-slim",
+    "cpu": 2,
+    "memory_gb": 1,
+    "thread_storage_gb": 10,
+    "workflow_storage_gb": 25,
+    "auto_stop": false,
+    "auto_archive": false,
+    "auto_delete": false
+  },
+  "models": {
+    "base_url": "http://localhost:3000/v1",
+    "api_key": "mr-e7eacfbc9e634bb2847e87b0"
+  },
+  "cloudflare": {
+    "use_quick_tunnel": true,
+    "tunnel_name": "kiren-tunnel"
+  },
+  "afraid_dns": {
+    "sync_url": "http://sync.afraid.org/u/AbnoE3MAuSUpbM2kvTmZ9AkL/",
+    "domain": "kiren.knr.cl"
+  },
+  "n8n": {
+    "default_port": 5678,
+    "basic_auth_user": "",
+    "basic_auth_password": ""
+  },
+  "agentmail": {
+    "api_key": "am_us_inbox_66ec76c8860328ab72db5823837661e598686fd1ee1fe41427ec54ee5122f788",
+    "from_inbox": "kiren-labs@agentmail.to",
+    "from_name": "Kiren"
+  },
+  "billing": {
+    "execution_cost_per_1k": 0.50,
+    "currency": "USD"
+  }
+}
